@@ -8,15 +8,21 @@
 
 ## Установка
 
-1. Установите зависимости:
-```bash
-pip install -r requirements.txt
+1. Активировать среду
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+2. Установите зависимости:
+``` 
+pip3 install -r requirements.txt
 ```
 
-## Запуск
 
-```bash
-python main.py
+## Запуск
+3. Запустить программу
+```
+python3 main.py
 ```
 
 ## Использование
