@@ -57,5 +57,16 @@ python main.py
 
 
 
-2025 by Vladimir Papin ![image](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white) ![image](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
 
+
+
+<p>
+</br></br>
+  2025 by Vladimir Papin
+  <a href="mailto:vladimirpapin@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://t.me/vladpap">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+</p>
