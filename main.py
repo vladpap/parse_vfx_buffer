@@ -1,8 +1,12 @@
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox
-import pyperclip
-import re
 from collections import defaultdict
+
+# Пытаемся импортировать pyperclip; выводим понятную ошибку, если не установлено
+try:
+    import pyperclip  # type: ignore
+except ImportError:  # pyperclip отсутствует
+    pyperclip = None
 
 
 class BufferParserApp:
@@ -58,6 +62,12 @@ class BufferParserApp:
     
     def parse_buffer(self):
         try:
+            if pyperclip is None:
+                messagebox.showerror(
+                    "Ошибка",
+                    "Библиотека pyperclip не установлена. Установите зависимости:\n\npip3 install -r requirements.txt"
+                )
+                return
             # Получаем текст из буфера обмена
             clipboard_text = pyperclip.paste()
             
